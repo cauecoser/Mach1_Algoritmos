@@ -9,14 +9,15 @@ section {
     display: flex;
     flex-direction: column;
 }
-input {
+input, button {
     width: 200px;
     align-self: center;
     margin-bottom: 10px;
     line-height: 25px;
     font-size: 18px;
-    padding: 0;
-    border-width: 0;
+    text-indent: 3px;
+    border: solid 2px gray;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -29,13 +30,4 @@ h1 {
 
 #descriptionText {
     text-indent: 40px;
-}
-
-#inputs {
-    text-align: center;
-}
-
-#revelar {
-    height: 25px;
-    
 }
