@@ -1,6 +1,6 @@
 let problema = document.querySelector('#descriptionText')
 
-problema.innerHTML = '... Atentar que este é o exercício XXX do Neps'
+problema.innerHTML = ''
 
 let inputA = document.querySelector('#inputA')
 let inputB = document.querySelector('#inputB')

@@ -1,6 +1,6 @@
 let problema = document.querySelector('#descriptionText')
 
-problema.innerHTML = 'Faça um programa que leia dois números inteiros digitados pelo teclado e imprima a soma deles. Atentar que este é o exercício 011 do Neps'
+problema.innerHTML = 'Faça um programa que leia dois números inteiros digitados pelo teclado e imprima a soma deles.'
 
 let inputA = document.querySelector('#inputA')
 let inputB = document.querySelector('#inputB')
