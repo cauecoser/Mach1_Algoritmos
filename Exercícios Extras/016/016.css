@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(50, 100, 110);
+    font: normal 18px Arial;
+    color: white;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+input, button {
+    width: 300px;
+    align-self: center;
+    margin-bottom: 10px;
+    line-height: 25px;
+    font-size: 18px;
+    text-indent: 3px;
+    border: solid 2px gray;
+    box-sizing: border-box;
+}
+
+#lc {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-decoration: underline overline double;
+}
+
+#description{
+    text-align: justify;
+}
+
+#descriptionText {
+    text-indent: 40px;
+}
