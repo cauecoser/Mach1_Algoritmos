@@ -9,7 +9,6 @@ section {
     display: flex;
     flex-direction: column;
 }
-
 input, button {
     width: 200px;
     align-self: center;
@@ -25,15 +24,10 @@ h1 {
     text-decoration: underline overline double;
 }
 
-p {
-    overflow-wrap: break-word;
-}
-
-a, a:link , a:visited , a:hover , a:active {
-    color: white;
-    text-indent: 40px;
-}
-
 #description{
     text-align: justify;
+}
+
+#descriptionText {
+    text-indent: 40px;
 }
