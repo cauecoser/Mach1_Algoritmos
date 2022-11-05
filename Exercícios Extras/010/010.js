@@ -12,7 +12,7 @@ let output3 = document.querySelector('#output3')
 // A lógica começa aqui.
 
 function muda() {
-    let strInputA = inputA.value.toString().replace(',','.')
+    let strInputA = inputA.value.toString().replace(',','.')  
     let strInputB = inputB.value.toString().replace(',','.')
     
     let media = (Number(strInputA)+Number(strInputB))/2
