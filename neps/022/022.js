@@ -21,6 +21,7 @@ function fazer() {
     let N = inputA.value
     let check = []
     let answs = []
+    let options='abcde'
     let acertos = 0
 
     let str = N.toString()
@@ -36,9 +37,11 @@ function fazer() {
     } else {
         for (i = 0; i < N; i++) {
 
-            check.push(Math.floor(Math.random() * (6 - 1) + 1))
-            answs.push(Math.floor(Math.random() * (6 - 1) + 1))
+            check.push(options.charAt(Math.floor(Math.random() * 5)))
+            answs.push(options.charAt(Math.floor(Math.random() * 5)))
 
+            alert(check[i])
+            
             if (check[i] == answs[i]) {
                 acertos += 1
             }
