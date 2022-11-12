@@ -15,3 +15,6 @@ let output3 = document.querySelector('#output3')
 
 // A lógica começa aqui.
 
+function fazer() {
+    
+}
