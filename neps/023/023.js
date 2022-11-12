@@ -28,27 +28,28 @@ function getArray(de, ate) {
 function fazer() {
 
     let cont = 0
-    let maior = 0
+    let aux = 0
 
     getArray(1, 3)
 
     for (j = 1; j < inputA.value; j++) {
 
         if (numbers[j] !== numbers[(j - 1)]) {
-            if (maior <= cont) {
-                maior = cont
-                cont = 0
-                console.log(cont,maior)
-            } else {
-                cont = 0
-            }
+            cont = 0
         } else {
             cont++
-            console.log(cont,maior)
+            
+            if(aux<=cont) {
+                aux=cont
+            }
+            else{
+                cont=0
+            }
         }
     }
+
     output1.innerHTML = numbers
     output2.innerHTML = cont
-    output3.innerHTML = maior + 1
+    output3.innerHTML = aux + 1
     numbers = []
 }
