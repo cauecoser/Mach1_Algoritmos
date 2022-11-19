@@ -1,0 +1,31 @@
+body {
+    background-color: orangered;
+    color: white;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    font: normal 16px Arial;
+}
+
+input {
+    width: 200px;
+}
+
+#inputs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#labels, #values {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    padding: 0;
+    line-height: 21px;
+}
+
+#myButton {
+    margin: 20px;
+}

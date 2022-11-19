@@ -17,8 +17,9 @@ function fazer() {
     array = []
     let A = false
     let B = false
+    let i = 0
 
-    for (i = 0; i < N; i++) {
+    while(i<N) {
         array.push(parseInt(Math.random()*2 + 1))
             if (array[i] === 1) {
             A = A !== true
@@ -26,6 +27,7 @@ function fazer() {
             A = A !== true
             B = B !== true
         }
+        i++
     }
     
     if(A==1){statusA="acesa"}else{statusA="apagada"}
