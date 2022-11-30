@@ -28,6 +28,8 @@ function fazer() {
     let V3 = []
     let V4 = []
 
+    output1.innerHTML = output2.innerHTML = output3.innerHTML = output4.innerHTML = output5.innerHTML = output6.innerHTML = output7.innerHTML = output8.innerHTML = ''
+
     for (let i = 1; i <= 16; i = i + 2) {
 
         A = parseInt(Math.floor(Math.random() * 6))
@@ -42,8 +44,8 @@ function fazer() {
             } else {
                 V1.push(i + 1)
             }
-            output1.innerHTML += `<br>(Time${i} ${A} x ${B} Time${(i + 1)})`
-            output2.innerHTML = V1
+            output1.innerHTML += `<br>(Time${i} <strong style="color: gold">${A} x ${B}</strong> Time${(i + 1)})`
+            output2.innerHTML = `Avançaram para as quartas de final os times ${V1}.`
         }
     }
 
@@ -61,8 +63,8 @@ function fazer() {
             } else {
                 V2.push(V1[(j + 1)])
             }
-            output3.innerHTML += `<br>(Time${V1[j]} ${A} x ${B} Time${V1[(j + 1)]})`
-            output4.innerHTML = V2
+            output3.innerHTML += `<br>(Time${V1[j]} <strong style="color: gold">${A} x ${B}</strong> Time${V1[(j + 1)]})`
+            output4.innerHTML = `Avançaram para as semifinais os times ${V2}.`
         }
     }
     
@@ -80,8 +82,8 @@ function fazer() {
             } else {
                 V3.push(V2[(k + 1)])
             }
-            output5.innerHTML += `<br>(Time${V2[k]} ${A} x ${B} Time${V2[(k + 1)]})`
-            output6.innerHTML = V3
+            output5.innerHTML += `<br>(Time${V2[k]} <strong style="color: gold">${A} x ${B}</strong> Time${V2[(k + 1)]})`
+            output6.innerHTML =`A grande final é entre os times ${V3}.`
         }
     }
 
@@ -99,8 +101,8 @@ function fazer() {
             } else {
                 V4.push(V3[(l + 1)])
             }
-            output7.innerHTML += `<br>(Time${V2[l]} ${A} x ${B} Time${V2[(l + 1)]})`
-            output8.innerHTML = V4
+            output7.innerHTML += `<br>(Time${V3[l]} <strong style="color: gold">${A} x ${B}</strong> Time${V3[(l + 1)]})`
+            output8.innerHTML = `<strong style="color: gold">O CAMPEÃO É O TIME ${V4}!!!</strong>`
         }
     }
 }
