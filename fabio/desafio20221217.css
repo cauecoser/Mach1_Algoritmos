@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font: normal 14pt Arial;
+}
+    
+maior {
+    text-align: center;
+}
+
+table {
+    width: 40vw;
+    text-align: center;
+
+}
+
+#itemLista {
+    width: 30vw;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 3px;
+    margin-bottom: 5px;
+  }
+
+  #blocoQtd {
+    display: flex;
+    justify-content: center;
+  }
+
+  .botao {
+    border: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+  }
+
+  #botaoMais {
+    color: green;
+  }
+
+  #botaoMenos {
+    color: red;
+  }
+
+  #qtd {
+    width: 25px;
+    text-align: center;
+    border:none;
+  }
+
+  
