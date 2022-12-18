@@ -12,23 +12,24 @@
 </head>
 
 <body>
-    <h1>LISTA DE COMPRAS</h1>
     <div id="maior">
+        <h1>- LISTA DE COMPRAS -</h1>
         <div class="container">
             <form id="inputForm">
-                <label for="itemLista"><strong>Preencha aqui o nome do item a ser adicionado na lista de
-                    compras:</strong></label>
-                    <input id="itemLista" type="text" />
-                <input id="addLista" type="button" onclick="adicionarLista()" value="Adicionar" />
+                <label for="itemLista"><em>Preencha aqui o nome do item a ser adicionado na lista de
+                    compras:</em></label>
+                    <input id="itemLista" type="text" autocomplete="off" autofocus/>
+                <input id="addLista" class="button" type="button" value="Adicionar >>" />
             </form>
         </div>
-
+        <br><br>
+        <input id="limpaTabela" class="button" type="button" value="X" />
         <div class="container">
             <table>
                 <thead>
                     <tr>
                         <th>ID</th>
-                        <th>ITEM</th>
+                        <th class="colItem">ITEM</th>
                         <th>QTD</th>
                         <th>CHECK</th>
                     </tr>
@@ -37,6 +38,7 @@
                 </tbody>
             </table>
         </div>
+        <div class="circulo"></div>
     </div>
 </body>
 

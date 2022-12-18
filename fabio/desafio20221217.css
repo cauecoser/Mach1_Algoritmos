@@ -1,53 +1,116 @@
-body {
-    margin: 0;
-    font: normal 14pt Arial;
+/* body {
+  margin: 0;
+  font: normal 14pt Arial;
+  text-align: center;
+  background-color: darkcyan;
+  color: white;
+} */
+
+html {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font: normal 14pt Arial;
+  text-align: center;
+  background-color: darkcyan;
+  color: white;
 }
-    
-maior {
-    text-align: center;
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  text-decoration: underline double;
+  text-decoration-color: gold;
+  font-style: italic;
 }
 
 table {
-    width: 40vw;
-    text-align: center;
+  width: 50vw;
+  text-align: center;
+}
 
+#maior {
+  margin: 5px;
+  overflow: hidden;
+}
+
+.circulo {
+  position: fixed;
+  bottom: -30vh;
+  right: -20vh;
+  height: 75vh;
+  width: 75vh;
+  border-radius: 100%;
+  background-color: goldenrod;
+  box-shadow: inset 0 0 10px white;
 }
 
 #itemLista {
-    width: 30vw;
+  width: 30vw;
+  border: none;
+  border-radius: 10px;
+  padding: 3px 10px;
+  outline: none;
+}
+
+.colItem {
+  width: 60%;
+}
+
+.button {
+  border-radius: 4px;
+  padding: 3px 10px;
+  color: white; 
+  background-image: radial-gradient(rgb(62, 188, 62),green);
+  outline: none;
+  border: solid 1px;
 }
 
 .container {
-    border: 1px solid black;
-    padding: 3px;
-    margin-bottom: 5px;
-  }
+  border: 2px solid gold;
+  padding: 3px;
+  margin-bottom: 5px;
+}
 
-  #blocoQtd {
-    display: flex;
-    justify-content: center;
-  }
+#blocoQtd {
+  display: flex;
+  justify-content: center;
+}
 
-  .botao {
-    border: none;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    padding: 0;
-  }
+.botao {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  background-image: radial-gradient(white, lightgray);
+  outline: none;
+  border: none;
+}
 
-  #botaoMais {
-    color: green;
-  }
+#botaoMais {
+  color: green;
+}
 
-  #botaoMenos {
-    color: red;
-  }
+#botaoMenos {
+  color: red;
+}
 
-  #qtd {
-    width: 25px;
-    text-align: center;
-    border:none;
-  }
+#limpaTabela {
+  position: fixed;
+  right: 0;
+  top: 155px;
+  right: 5px;
+  color: white;
+  background-image: radial-gradient( red, darkred);
+}
 
-  
+#qtd {
+  width: 25px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
